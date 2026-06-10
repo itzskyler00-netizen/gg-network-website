@@ -1,5 +1,5 @@
 body{
-background:linear-gradient(to bottom,#071221,#0d1c33);
+background:#071221;
 color:white;
 font-family:Arial,sans-serif;
 margin:0;
@@ -9,7 +9,8 @@ nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 50px;
+padding:20px;
+flex-wrap:wrap;
 }
 
 .logo{
@@ -18,57 +19,72 @@ font-weight:bold;
 color:#8fd3ff;
 }
 
+.menu{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
 .menu a{
 color:white;
 text-decoration:none;
-margin:0 12px;
 }
 
-.buttons a{
-text-decoration:none;
-padding:12px 20px;
-border-radius:10px;
-margin-left:10px;
+.buttons{
+display:flex;
+gap:10px;
 }
 
 .join{
-background:#8fd3ff;
-color:black;
+background:#19a7ff;
+color:white;
+padding:12px 20px;
+border-radius:15px;
+text-decoration:none;
 }
 
 .discord{
-background:#1b2d4f;
+background:#5865F2;
 color:white;
+padding:12px 20px;
+border-radius:15px;
+text-decoration:none;
 }
 
 .hero{
 text-align:center;
-padding:100px 20px;
+padding:80px 20px;
+}
+
+.white{
+color:white;
+}
+
+.blue{
+color:#8fd3ff;
 }
 
 .hero h1{
-font-size:80px;
-color:#8fd3ff;
+font-size:70px;
 }
 
 .hero p{
 max-width:800px;
 margin:auto;
 line-height:1.8;
-font-size:18px;
 }
 
 .cards{
 display:flex;
 justify-content:center;
 gap:30px;
-margin-top:50px;
 flex-wrap:wrap;
+margin-top:50px;
 }
 
 .card{
 background:#132544;
+width:280px;
 padding:25px;
-width:300px;
 border-radius:20px;
 }
