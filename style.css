@@ -20,10 +20,19 @@ nav{
     color:white;
 }
 
+.menu{
+    display:flex;
+    gap:30px;
+}
+
 .menu a{
     color:white;
     text-decoration:none;
-    margin:0 15px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
 }
 
 .buttons a{
