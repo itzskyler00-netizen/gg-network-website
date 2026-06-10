@@ -1,4 +1,10 @@
-```css
+html,body{
+    margin:0;
+    padding:0;
+    background:black !important;
+    color:white;
+    min-height:100vh;
+}
 html, body{
     body{
     background:red !important;
