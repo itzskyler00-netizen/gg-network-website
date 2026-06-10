@@ -8,23 +8,51 @@
 <body>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="features.html">Features</a>
-<a href="commands.html">Commands</a>
-<a href="community.html">Community</a>
-<a href="staff.html">Staff</a>
-<a href="store.html">Store</a>
-<a href="join.html">How To Join</a>
+<div class="logo">GG NETWORK</div>
+
+<div class="menu">
+<a href="index.html">HOME</a>
+<a href="community.html">COMMUNITY</a>
+<a href="commands.html">COMMANDS</a>
+<a href="features.html">FEATURES</a>
+<a href="staff.html">STAFF</a>
+<a href="about.html">ABOUT</a>
+</div>
+
+<div class="buttons">
+<a href="join.html" class="join">How To Join</a>
+<a href="#" class="discord">Discord</a>
+</div>
 </nav>
+
+<div class="hero">
 
 <h1>GG NETWORK</h1>
 
 <p>
-A Minecraft server for everyone.
-Premium and cracked players are welcome.
-Enjoy survival, PvP arenas, auctions, and a friendly community.
+GG Network is a Minecraft server for everyone.
+Whether you're a premium player or using a cracked account,
+you're always welcome here.
+
+Our goal is to provide a fun, friendly and stable experience
+for all players with useful plugins, economy, PvP arenas and an active community.
 </p>
+
+<div class="cards">
+
+<div class="card">
+<h2>📖 Player Guide</h2>
+<p>Learn commands and how to get started.</p>
+</div>
+
+<div class="card">
+<h2>⚡ 24/7 Online</h2>
+<p>Play anytime with your friends.</p>
+</div>
+
+</div>
+
+</div>
 
 </body>
 </html>
