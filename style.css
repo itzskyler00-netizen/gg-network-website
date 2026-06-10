@@ -1,37 +1,69 @@
 ```css
 body{
-    background:black;
-    color:white;
+background:#000000;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
 }
 
 nav{
-    background:black;
+background:#000000;
+padding:25px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
-.card{
-    background:#111111;
+.logo{
+color:white;
+font-size:40px;
+font-weight:bold;
 }
 
-h1,h2,p,a{
-    color:white;
+.menu{
+display:flex;
+gap:30px;
 }
 
-```css
-body{
-background:black !important;
-color:white !important;
+.menu a{
+color:white;
+text-decoration:none;
 }
 
-nav{
-background:black !important;
+.buttons{
+display:flex;
+gap:15px;
+}
+
+.buttons a{
+color:white;
+text-decoration:none;
+padding:12px 25px;
+border-radius:15px;
+}
+
+.join{
+background:#1699ff;
+}
+
+.discord{
+background:#5865F2;
+}
+
+.hero{
+max-width:1000px;
+margin:auto;
+padding:80px;
 }
 
 h1,h2,h3,p,a{
-color:white !important;
+color:white;
 }
 
 .card{
-background:#111111 !important;
+background:#111111;
+padding:40px;
+border-radius:25px;
+border:1px solid #222;
 }
 ```
-
