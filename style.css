@@ -1,90 +1,75 @@
 body{
-background:#071221;
-color:white;
-font-family:Arial,sans-serif;
-margin:0;
+    background:#06152d;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
 }
 
 nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px;
-flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+    background:#071a35;
 }
 
 .logo{
-font-size:30px;
-font-weight:bold;
-color:#8fd3ff;
-}
-
-.menu{
-display:flex;
-flex-wrap:wrap;
-gap:15px;
+    font-size:40px;
+    font-weight:bold;
+    color:#7fd8ff;
 }
 
 .menu a{
-color:white;
-text-decoration:none;
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
 }
 
-.buttons{
-display:flex;
-gap:10px;
+.buttons a{
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:15px;
+    color:white;
 }
 
 .join{
-background:#19a7ff;
-color:white;
-padding:12px 20px;
-border-radius:15px;
-text-decoration:none;
+    background:#1699ff;
 }
 
 .discord{
-background:#5865F2;
-color:white;
-padding:12px 20px;
-border-radius:15px;
-text-decoration:none;
+    background:#5865F2;
 }
 
 .hero{
-text-align:center;
-padding:80px 20px;
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
 }
 
-.white{
-color:white;
+h1{
+    font-size:90px;
+    margin-bottom:30px;
 }
 
-.blue{
-color:#8fd3ff;
-}
-
-.hero h1{
-font-size:70px;
-}
-
-.hero p{
-max-width:800px;
-margin:auto;
-line-height:1.8;
+p{
+    font-size:24px;
+    line-height:1.8;
 }
 
 .cards{
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
-margin-top:50px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:80px;
 }
 
 .card{
-background:#132544;
-width:280px;
-padding:25px;
-border-radius:20px;
+    background:#0f2348;
+    padding:40px;
+    border-radius:25px;
+}
+
+.card h2{
+    font-size:35px;
 }
