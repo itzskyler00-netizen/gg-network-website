@@ -15,4 +15,23 @@ nav{
 h1,h2,p,a{
     color:white;
 }
+
+```css
+body{
+background:black !important;
+color:white !important;
+}
+
+nav{
+background:black !important;
+}
+
+h1,h2,h3,p,a{
+color:white !important;
+}
+
+.card{
+background:#111111 !important;
+}
 ```
+
